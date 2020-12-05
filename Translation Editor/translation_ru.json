@@ -24,9 +24,9 @@
 		"ResetOKMessage": "Сброс OK",
 		"YourGainMessage": "Прирост:",
 		"SettingsResetMessage": "Настройки сброшены!",
-		"LockingKeysString": " LOCKED",
-		"UnlockingKeysString": "UNLOCKED",
-		"WarningKeysLockedString": "!LOCKED!"
+		"LockingKeysString": "БЛОКИР.",
+		"UnlockingKeysString": "РАЗБЛОК.",
+		"WarningKeysLockedString": "!БЛОКИР!"
 	},
 	"characters": {
 		"SettingRightChar": "П",
@@ -42,9 +42,9 @@
 		"SettingSensitivityLow": "L",
 		"SettingSensitivityMedium": "M",
 		"SettingSensitivityHigh": "H",
-		"SettingLockDisableChar": "D",
-		"SettingLockBoostChar": "B",
-		"SettingLockFullChar": "F"
+		"SettingLockDisableChar": "О",
+		"SettingLockBoostChar": "Т",
+		"SettingLockFullChar": "П"
 	},
 	"menuGroups": {
 		"SolderingMenu": {
@@ -135,10 +135,10 @@
 		},
 		"BoostTemperature": {
 			"text2": [
-				"t° турбо",
-				"режима"
+				"t° режима",
+				"Турбо"
 			],
-			"desc": "Температура жала в турбо-режиме"
+			"desc": "Температура жала в режиме \"Турбо\""
 		},
 		"AutoStart": {
 			"text2": [
@@ -152,7 +152,7 @@
 				"Мигание t°",
 				"при остывании"
 			],
-			"desc": "Мигать температурой на экране охлаждения, пока жало еще горячее"
+			"desc": "Значок температуры на экране охлаждения мигает, пока жало еще горячее"
 		},
 		"TemperatureCalibration": {
 			"text2": [
@@ -164,9 +164,9 @@
 		"SettingsReset": {
 			"text2": [
 				"Сброс",
-				"Настроек"
+				"настроек"
 			],
-			"desc": "Сброс настроек к значеням по умолчанию"
+			"desc": "Сброс настроек к значению по умолчанию"
 		},
 		"VoltageCalibration": {
 			"text2": [
@@ -185,7 +185,7 @@
 		"ScrollingSpeed": {
 			"text2": [
 				"Скорость",
-				"текста"
+				"прокрутки"
 			],
 			"desc": "Скорость прокрутки текста <М=медленно, Б=быстро>"
 		},
@@ -208,7 +208,7 @@
 				"Улучшенная",
 				"калибровка"
 			],
-			"desc": "Улучшенная калибровка с импользованием термопары жала"
+			"desc": "Улучшенная калибровка с иcпользованием термопары жала"
 		},
 		"QCMaxVoltage": {
 			"text2": [
@@ -219,7 +219,7 @@
 		},
 		"PowerLimit": {
 			"text2": [
-				"Максимальная",
+				"Макс.",
 				"мощность"
 			],
 			"desc": "Максимальная мощность, которую может использовать паяльник <Ватт>"
@@ -227,7 +227,7 @@
 		"ReverseButtonTempChange": {
 			"text2": [
 				"Инвертировать",
-				"кнопки"
+				"кнопки +/-"
 			],
 			"desc": "Инвертировать кнопки изменения температуры"
 		},
@@ -241,37 +241,37 @@
 		"TempChangeLongStep": {
 			"text2": [
 				"Шаг темп.",
-				"длин. наж."
+				"длит. наж."
 			],
-			"desc": "Шаг изменения температуры при длинном нажатии кнопок"
+			"desc": "Шаг изменения температуры при длительном нажатии кнопок"
 		},
 		"PowerPulsePower": {
 			"text2": [
-				"Power",
-				"Pulse W"
+				"Мощность",
+				"импульса, Ватт"
 			],
-			"desc": "Keep awake pulse power intensity"
+			"desc": "Поддержка нагрузки на выходе БП (для предотвращения отключения некоторых повербанков)"
 		},
 		"TipGain": {
 			"text2": [
-				"Modify",
-				"tip gain"
+				"Корр.",
+				" t° жала"
 			],
-			"desc": "Tip gain"
+			"desc": "Коррекция температуры жала (uV/C)"
 		},
 		"HallEffSensitivity": {
 			"text2": [
-				"Hall Eff",
-				"Sensitivity"
+				"Чувств.",
+				"д. Холла"
 			],
-			"desc": "Sensitivity of the Hall effect sensor in detecting sleep <O=Off,L=Low,M=Medium,H=High>"
+			"desc": "Чувствительность датчика Холла в режиме сна <O=Off,L=Low,M=Medium,H=High>"
 		},
 		"LockingMode": {
 			"text2": [
-				"Allow buttons",
-				"locking"
+				"Блокировка",
+				"кнопок"
 			],
-			"desc": "When soldering, long press on both buttons lock them <D=Disable, B=Boost only, F=Full locking>"
+			"desc": "Во время пайки, длительно нажмите обе кнопки паяльника, затем: <О=Отключить, Т=Только режим Турбо, П=Полная блокировка>"
 		}
 	}
 }
